@@ -5,3 +5,4 @@ from app import root
 async def test_root():
     result = await root()
     assert result == "Hello Student"
+
